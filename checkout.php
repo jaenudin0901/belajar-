@@ -150,9 +150,10 @@
 		
 
 					$("select[name=nama_paket]").on("change", function(){
+						// var service = $("option:selected", this).attr("service");
 						var paket = $("option:selected", this).attr("paket");
 						var ongkir = $("option:selected", this).attr("ongkir");
-						var etd = $("option:selected", this).attr(etd);
+						var etd = $("option:selected", this).attr("etd");
 						
 						$("input[name=paket]").val(paket);
 						$("input[name=ongkir]").val(ongkir);

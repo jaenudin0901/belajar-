@@ -1,8 +1,8 @@
 <?php
 $ekpedisi=$_POST['ekpedisi'];
 $distrik=$_POST['distrik'];
-$berat=$_POST['berat'];
-
+// $berat=$_POST['berat'];
+$berat=2000;
 $curl = curl_init();
 
 curl_setopt_array($curl, array(

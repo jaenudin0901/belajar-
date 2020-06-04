@@ -36,7 +36,7 @@ echo"cuRL Error:" .$err;
  		echo"<option value=''  
     id_distrik='".$tiap_distrik["city_id"]."'
     nama_provinsi='".$tiap_distrik["province"]."' 
-    nama_kota='".$tiap_distrik["city_name"]."' 
+    nama_distrik='".$tiap_distrik["city_name"]."' 
     tipe='".$tiap_distrik["type"]."' 
     kodepos='".$tiap_distrik["postal_code"]."'    >";
  		echo $tiap_distrik["type"]." ";
