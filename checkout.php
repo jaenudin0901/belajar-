@@ -129,6 +129,7 @@
 						data:'ekpedisi='+ekpedisi_terpilih+'&kota='+distrik_terpilih+'&berat='+total_berat,
 						success:function(hasil_paket)
 						{
+							// console.log(hasil_paket);
 							$("select[name=nama_paket]").html(hasil_paket);
 							// letakan nama ekpedisi terpilih di input ekpedisi
 							$("input[name=ekpedisi]").val(ekpedisi_terpilih);
@@ -139,7 +140,7 @@
 					$("select[name=nama_distrik]").on("change", function(){
 						var prov   = $("option:selected", this).attr("nama_provinsi");
 						var dist   = $("option:selected", this).attr("nama_distrik");
-						var tipe   = $("option:selected", this).attr("tipe_distrik");
+						var tipe   = $("option:selected", this).attr("tipe");
 						var kodepos = $("option:selected", this).attr("kodepos");
 						
 						$("input[name=provinsi]").val(prov);

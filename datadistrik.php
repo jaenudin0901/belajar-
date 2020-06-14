@@ -26,9 +26,9 @@ echo"cuRL Error:" .$err;
 
   $data_distrik = $array_response['rajaongkir']['results'];
 
-  // echo"<pre>";
-  // print_r($data_distrik);
-  // echo "</pre>";
+  echo"<pre>";
+  print_r($data_distrik);
+  echo "</pre>";
 
   echo "<opton value=''>--Pilih Kota/Kabupaten--</option>";
 
